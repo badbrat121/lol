@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      background-color: #000; /* Black background for the page */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .neon-button {
+      display: inline-block;
+      padding: 10px 20px;
+      color: #ffffff; /* Default white text color */
+      background-color: #000; /* Black background for the button */
+      text-decoration: none; /* Remove underline */
+      font-size: 24px;
+      font-family: 'Poppins', sans-serif; /* Use Poppins font */
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      transition: color 0.3s ease, text-shadow 0.3s ease; /* Smooth transition for color and glow */
+      cursor: pointer;
+    }
+
+    .neon-button:hover {
+      color: #00d4ff; /* Neon blue text color on hover */
+      text-shadow: 0 0 5px rgba(0, 212, 255, 0.7), 0 0 10px rgba(0, 212, 255, 0.5); /* Neon glow effect on hover */
+    }
+  </style>
+</head>
+<body>
+  <div class="neon-button" onclick="navigate()">
+    Go Back
+  </div>
+
+  <script>
+    function navigate() {
+      window.top.location.href = "https://shop.sweetvenom.great-site.net/about-us";
+    }
+  </script>
+</body>
+</html>
